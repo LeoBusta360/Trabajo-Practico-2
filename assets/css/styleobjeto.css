@@ -1,0 +1,26 @@
+body{
+    background-image: url('../img/fondo.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cuadro{
+        width: 1000px;
+        text-align: center;
+        height: 550px;
+        margin: 10px;
+        background-color: rgba(255, 255, 255, 0.6);
+        box-shadow: rgba(255, 255, 255, 0.6);     
+        border-radius: 10px;
+        text-decoration: none;
+        color: black; 
+        display: flex;
+        flex-direction: column;
+}
+
+.imagen-grande{
+    width: 70px;
+    height: 70px;
+}

@@ -1,0 +1,60 @@
+body{
+    background-image: url('../img/fondo.jpg');
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: -40px;
+    width: 100%;
+}
+
+.form-control{
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.text-center{
+    color: white;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.CajaCard{
+    width: 100px;
+    margin: 5px;
+}
+
+.card-img-top{
+    width: 100px;
+    height: 100px;
+}
+
+.enlace {
+    text-decoration: none;
+}
+
+.filtro{
+    color: white;
+    font-size: 13px;
+}

@@ -1,0 +1,586 @@
+{
+  "crafteos": [
+    {
+      "id": 1,
+      "nombre": "Espada de Diamante",
+      "tipo": "Herramienta",
+      "materiales": [
+        "2 Diamantes",
+        "1 Palo"
+      ],
+      "imagen": "https://i.postimg.cc/Pxb512gd/espada-diamante.png",
+      "crafteo": "assets/img/crafteos/espada_diamante.png",
+      "descripcion": "Una poderosa espada hecha de diamantes, capaz de infligir alto daño a los enemigos."
+    },
+    {
+      "id": 2,
+      "nombre": "Pico de Madera",
+      "tipo": "Herramienta",
+      "materiales": [
+        "3 Madera",
+        "2 Palos"
+      ],
+      "imagen": "https://i.postimg.cc/QCyG77dX/pico-madera.png",
+      "crafteo": "assets/img/crafteos/pico_madera.png",
+      "descripcion": "Un pico básico de madera, ideal para romper bloques de piedra y carbón."
+    },
+    {
+      "id": 3,
+      "nombre": "Horno",
+      "tipo": "Bloque",
+      "materiales": [
+        "8 Piedra"
+      ],
+      "imagen": "https://i.postimg.cc/QdR8P2sX/horno.png",
+      "crafteo": "assets/img/crafteos/horno.png",
+      "descripcion": "Un bloque que se utiliza para cocinar alimentos y fundir minerales."
+    },
+    {
+      "id": 4,
+      "nombre": "Mesa de Trabajo",
+      "tipo": "Bloque",
+      "materiales": [
+        "4 Madera"
+      ],
+      "imagen": "https://i.postimg.cc/zXvqfzGz/mesa-trabajo.png",
+      "crafteo": "assets/img/crafteos/mesa_trabajo.png",
+      "descripcion": "Una mesa donde los jugadores pueden crear herramientas, armas y otros bloques."
+    },
+    {
+      "id": 5,
+      "nombre": "Pala de Hierro",
+      "tipo": "Herramienta",
+      "materiales": [
+        "1 Hierro",
+        "2 Palos"
+      ],
+      "imagen": "https://i.postimg.cc/43kGwpby/pala-hierro.png",
+      "crafteo": "assets/img/crafteos/pala_hierro.png",
+      "descripcion": "Una pala resistente de hierro, perfecta para excavar tierra y arena."
+    },
+    {
+      "id": 6,
+      "nombre": "Casco de Diamante",
+      "tipo": "Armadura",
+      "materiales": [
+        "5 Diamantes"
+      ],
+      "imagen": "https://i.postimg.cc/jqQDfSTy/casco-diamante.png",
+      "crafteo": "assets/img/crafteos/casco_diamante.png",
+      "descripcion": "Un casco fuerte que proporciona gran protección contra los ataques."
+    },
+    {
+      "id": 7,
+      "nombre": "Antorcha",
+      "tipo": "Objeto",
+      "materiales": [
+        "1 Palo",
+        "1 Carbón"
+      ],
+      "imagen": "https://i.postimg.cc/c408k8hD/antorcha.png",
+      "crafteo": "assets/img/crafteos/antorcha.png",
+      "descripcion": "Una fuente de luz que ilumina los alrededores y evita que los monstruos aparezcan."
+    },
+    {
+      "id": 8,
+      "nombre": "Bloque de Hierro",
+      "tipo": "Bloque",
+      "materiales": [
+        "9 Lingotes de Hierro"
+      ],
+      "imagen": "https://i.postimg.cc/RZ0J45jK/bloque-hierro.png",
+      "crafteo": "assets/img/crafteos/bloque_hierro.png",
+      "descripcion": "Un bloque sólido de hierro, usado para almacenamiento y construcción."
+    },
+    {
+      "id": 9,
+      "nombre": "Mesa de Encantamientos",
+      "tipo": "Bloque",
+      "materiales": [
+        "4 Obsidiana",
+        "2 Diamantes",
+        "1 Libro"
+      ],
+      "imagen": "https://i.postimg.cc/3rnK747f/mesa-encantamientos.png",
+      "crafteo": "assets/img/crafteos/mesa_encantamientos.png",
+      "descripcion": "Permite a los jugadores encantar herramientas, armas y armaduras."
+    },
+    {
+      "id": 10,
+      "nombre": "Yunque",
+      "tipo": "Bloque",
+      "materiales": [
+        "3 Bloques de Hierro",
+        "4 Lingotes de Hierro"
+      ],
+      "imagen": "https://i.postimg.cc/XNDTQwnW/yunque.png",
+      "crafteo": "assets/img/crafteos/yunque.png",
+      "descripcion": "Se usa para reparar y renombrar herramientas, armas y armaduras."
+    },
+    {
+      "id": 11,
+      "nombre": "Puerta de Madera",
+      "tipo": "Bloque",
+      "materiales": [
+        "6 Maderas"
+      ],
+      "imagen": "https://i.postimg.cc/d0YMGwwT/puerta-madera.png",
+      "crafteo": "assets/img/crafteos/puerta_madera.png",
+      "descripcion": "Una puerta que se puede abrir y cerrar para acceder a espacios."
+    },
+    {
+      "id": 12,
+      "nombre": "Peto de Hierro",
+      "tipo": "Armadura",
+      "materiales": [
+        "8 Lingotes de Hierro"
+      ],
+      "imagen": "https://i.postimg.cc/sxXC1my6/peto-hierro.png",
+      "crafteo": "assets/img/crafteos/peto_hierro.png",
+      "descripcion": "Una armadura que protege el torso del jugador."
+    },
+    {
+      "id": 13,
+      "nombre": "Escudo",
+      "tipo": "Herramienta",
+      "materiales": [
+        "6 Maderas",
+        "1 Lingote de Hierro"
+      ],
+      "imagen": "https://i.postimg.cc/yxVYj0Kc/escudo.png",
+      "crafteo": "assets/img/crafteos/escudo.png",
+      "descripcion": "Un escudo que protege al jugador de ataques."
+    },
+    {
+      "id": 14,
+      "nombre": "Cubo",
+      "tipo": "Herramienta",
+      "materiales": [
+        "3 Lingotes de Hierro"
+      ],
+      "imagen": "https://i.postimg.cc/yYLWfpkd/cubo.png",
+      "crafteo": "assets/img/crafteos/cubo.png",
+      "descripcion": "Se utiliza para recoger y transportar líquidos como agua o lava."
+    },
+    {
+      "id": 15,
+      "nombre": "Cristal Tintado",
+      "tipo": "Bloque",
+      "materiales": [
+        "4 Amatistas",
+        "1 Cristal"
+      ],
+      "imagen": "https://i.postimg.cc/NjVFty8v/cristal-tintado.png",
+      "crafteo": "assets/img/crafteos/cristal_tintado.png",
+      "descripcion": "Cristales de colores que se pueden usar para decorar y construir."
+    },
+    {
+      "id": 16,
+      "nombre": "Ladrillo de Piedra",
+      "tipo": "Bloque",
+      "materiales": [
+        "4 Piedras"
+      ],
+      "imagen": "https://i.postimg.cc/R0KSzgVw/ladrillo-piedra.png",
+      "crafteo": "assets/img/crafteos/ladrillo_piedra.png",
+      "descripcion": "Un ladrillo resistente que se utiliza en la construcción."
+    },
+    {
+      "id": 17,
+      "nombre": "Botas de Cuero",
+      "tipo": "Armadura",
+      "materiales": [
+        "4 Cuero"
+      ],
+      "imagen": "https://i.postimg.cc/jSkwj3b9/botas-cuero.png",
+      "crafteo": "assets/img/crafteos/botas_cuero.png",
+      "descripcion": "Botas que proporcionan protección básica para los pies del jugador."
+    },
+    {
+      "id": 18,
+      "nombre": "Silla de Montar",
+      "tipo": "Herramienta",
+      "materiales": [
+        "Lo encuentras en cofres"
+      ],
+      "imagen": "https://i.postimg.cc/bJyKFgGy/silla-montar.png",
+      "crafteo": "assets/img/crafteos/silla_montar.png",
+      "descripcion": "Permite al jugador montar caballos, burros y otros animales."
+    },
+    {
+      "id": 19,
+      "nombre": "Arco",
+      "tipo": "Herramienta",
+      "materiales": [
+        "3 Palos",
+        "3 Hilos"
+      ],
+      "imagen": "https://i.postimg.cc/YqRL5qyt/arco.png",
+      "crafteo": "assets/img/crafteos/arco.png",
+      "descripcion": "Un arco que permite disparar flechas a distancia."
+    },
+    {
+      "id": 20,
+      "nombre": "Flecha",
+      "tipo": "Objeto",
+      "materiales": [
+        "1 Palo",
+        "1 Pluma",
+        "1 Pedernal"
+      ],
+      "imagen": "https://i.postimg.cc/vHZZ673d/flecha.png",
+      "crafteo": "assets/img/crafteos/flecha.png",
+      "descripcion": "Se utiliza como munición para el arco."
+    },
+    {
+      "id": 21,
+      "nombre": "Pico de Piedra",
+      "tipo": "Herramienta",
+      "materiales": [
+        "3 Piedra",
+        "2 Palos"
+      ],
+      "imagen": "https://i.postimg.cc/7YjrYSR9/pico-piedra.png",
+      "crafteo": "assets/img/crafteos/pico_piedra.png",
+      "descripcion": "Un pico que permite romper piedra y otros bloques duros."
+    },
+    {
+      "id": 22,
+      "nombre": "Espada de Madera",
+      "tipo": "Herramienta",
+      "materiales": [
+        "2 Madera",
+        "1 Palo"
+      ],
+      "imagen": "https://i.postimg.cc/pVZdTcQZ/espada-madera.png",
+      "crafteo": "assets/img/crafteos/espada_madera.png",
+      "descripcion": "Una espada básica que puede usarse para defenderse."
+    },
+    {
+      "id": 23,
+      "nombre": "Carbón",
+      "tipo": "Material",
+      "materiales": [
+        "1 Mineral de Carbón"
+      ],
+      "imagen": "https://i.postimg.cc/D0FmNtrW/carbon.png",
+      "crafteo": "assets/img/crafteos/carbon.png",
+      "descripcion": "Un material que se utiliza como combustible y para hacer antorchas."
+    },
+    {
+      "id": 24,
+      "nombre": "Pala de Diamante",
+      "tipo": "Herramienta",
+      "materiales": [
+        "1 Diamante",
+        "2 Palos"
+      ],
+      "imagen": "https://i.postimg.cc/gk7mXCxv/pala-diamante.png",
+      "crafteo": "assets/img/crafteos/pala_diamante.png",
+      "descripcion": "Una pala de alta calidad que excava rápidamente tierra y arena."
+    },
+    {
+      "id": 25,
+      "nombre": "Faro",
+      "tipo": "Bloque",
+      "materiales": [
+        "5 Cristales",
+        "3 Obsidiana",
+        "1 Estrella del Nether"
+      ],
+      "imagen": "https://i.postimg.cc/RVpV13DJ/faro.png",
+      "crafteo": "assets/img/crafteos/faro.png",
+      "descripcion": "Un bloque que emite luz y se puede usar para guiar a los jugadores."
+    },
+    {
+      "id": 26,
+      "nombre": "Flecha con Veneno",
+      "tipo": "Munición",
+      "materiales": [
+        "1 Flecha",
+        "1 Poción de Veneno"
+      ],
+      "imagen": "https://i.postimg.cc/kgVMTn01/flecha-veneno.png",
+      "crafteo": "assets/img/crafteos/flecha_veneno.png",
+      "descripcion": "Una flecha que causa daño por veneno a los enemigos."
+    },
+    {
+      "id": 27,
+      "nombre": "Peto de Diamante",
+      "tipo": "Armadura",
+      "materiales": [
+        "8 Diamantes"
+      ],
+      "imagen": "https://i.postimg.cc/dthKY55D/peto-diamante.png",
+      "crafteo": "assets/img/crafteos/peto_diamante.png",
+      "descripcion": "Una armadura fuerte que protege eficazmente al jugador."
+    },
+    {
+      "id": 28,
+      "nombre": "Carro de Mina",
+      "tipo": "Herramienta",
+      "materiales": [
+        "5 Lingotes de Hierro"
+      ],
+      "imagen": "https://i.postimg.cc/sxc1CwmT/carro-mina.png",
+      "crafteo": "assets/img/crafteos/carro_mina.png",
+      "descripcion": "Un vehículo que se utiliza en rieles para transportar jugadores y bloques."
+    },
+    {
+      "id": 29,
+      "nombre": "Lingote de Oro",
+      "tipo": "Material",
+      "materiales": [
+        "1 Mineral de Oro"
+      ],
+      "imagen": "https://i.postimg.cc/qRGpNgKR/lingote-oro.png",
+      "crafteo": "assets/img/crafteos/lingote_oro.png",
+      "descripcion": "Un lingote que se puede utilizar para crear herramientas y bloques de oro."
+    },
+    {
+      "id": 30,
+      "nombre": "Botella de Agua",
+      "tipo": "Objeto",
+      "materiales": [
+        "1 Botella de Cristal",
+        "Agua"
+      ],
+      "imagen": "https://i.postimg.cc/Gp8BTP3p/botella-agua.png",
+      "crafteo": "assets/img/crafteos/botella_agua.png",
+      "descripcion": "Una botella que contiene agua, útil para hacer pociones."
+    },
+    {
+      "id": 31,
+      "nombre": "Lingote de Netherita",
+      "tipo": "Material",
+      "materiales": [
+        "4 Fragmentos de Netherita",
+        "4 Lingotes de Oro"
+      ],
+      "imagen": "https://i.postimg.cc/d1FqQGLp/lingote-netherita.png",
+      "crafteo": "assets/img/crafteos/lingote_netherita.png",
+      "descripcion": "Un lingote avanzado que se utiliza para crear herramientas y armaduras de Netherita."
+    },
+    {
+      "id": 32,
+      "nombre": "Esmeralda",
+      "tipo": "Material",
+      "materiales": [
+        "1 Mineral de Esmeralda"
+      ],
+      "imagen": "https://i.postimg.cc/J0P72t7g/esmeralda.png",
+      "crafteo": "assets/img/crafteos/esmeralda.png",
+      "descripcion": "Una gema preciosa que se puede usar para comerciar con los aldeanos."
+    },
+    {
+      "id": 33,
+      "nombre": "Tridente",
+      "tipo": "Herramienta",
+      "materiales": [
+        "Matando Ahogados (Drop)"
+      ],
+      "imagen": "https://i.postimg.cc/mkhKTrNK/tridente.png",
+      "crafteo": "assets/img/crafteos/tridente.png",
+      "descripcion": "Una poderosa arma arrojadiza que puede ser utilizada en el agua."
+    },
+    {
+      "id": 34,
+      "nombre": "Palanca",
+      "tipo": "Redstone",
+      "materiales": [
+        "1 Palo",
+        "1 Piedra"
+      ],
+      "imagen": "https://i.postimg.cc/3R3TQ7qH/palanca.png",
+      "crafteo": "assets/img/crafteos/palanca.png",
+      "descripcion": "Un mecanismo que activa bloques y dispositivos de redstone."
+    },
+    {
+      "id": 35,
+      "nombre": "Cofre",
+      "tipo": "Bloque",
+      "materiales": [
+        "8 Maderas"
+      ],
+      "imagen": "https://i.postimg.cc/Qx8HJZNw/cofre.png",
+      "crafteo": "assets/img/crafteos/cofre.png",
+      "descripcion": "Un contenedor que permite almacenar objetos y materiales."
+    },
+    {
+      "id": 36,
+      "nombre": "Riel",
+      "tipo": "Redstone",
+      "materiales": [
+        "6 Lingotes de Hierro",
+        "1 Palo"
+      ],
+      "imagen": "https://i.postimg.cc/ZqFGc25s/riel.png",
+      "crafteo": "assets/img/crafteos/riel.png",
+      "descripcion": "Se utiliza para crear caminos de tren para carros de mina."
+    },
+    {
+      "id": 37,
+      "nombre": "Tijeras",
+      "tipo": "Herramienta",
+      "materiales": [
+        "2 Lingotes de Hierro"
+      ],
+      "imagen": "https://i.postimg.cc/3N6VNHtN/tijeras.png",
+      "crafteo": "assets/img/crafteos/tijeras.png",
+      "descripcion": "Herramienta utilizada para cortar bloques de lana y hojas."
+    },
+    {
+      "id": 38,
+      "nombre": "Reloj",
+      "tipo": "Objeto",
+      "materiales": [
+        "4 Lingotes de Oro",
+        "1 Polvo de Redstone"
+      ],
+      "imagen": "https://i.postimg.cc/TwtZ8bmr/reloj.png",
+      "crafteo": "assets/img/crafteos/reloj.png",
+      "descripcion": "Un dispositivo que muestra la hora del día en el mundo de Minecraft."
+    },
+    {
+      "id": 39,
+      "nombre": "Poción de Fuerza",
+      "tipo": "Objeto",
+      "materiales": [
+        "1 Botella de Agua",
+        "1 Verruga del Nether",
+        "1 Polvo de Blaze"
+      ],
+      "imagen": "https://i.postimg.cc/x1HDkcD2/pocion-fuerza.png",
+      "crafteo": "assets/img/crafteos/pocion_fuerza.png",
+      "descripcion": "Una poción que aumenta temporalmente el daño del jugador."
+    },
+    {
+      "id": 40,
+      "nombre": "Lámpara de Redstone",
+      "tipo": "Redstone",
+      "materiales": [
+        "1 Glowstone",
+        "4 Polvos de Redstone"
+      ],
+      "imagen": "https://i.postimg.cc/C5LSkYC4/lampara-redstone.png",
+      "crafteo": "assets/img/crafteos/lampara_redstone.png",
+      "descripcion": "Una fuente de luz que se activa mediante señales de redstone."
+    },
+    {
+      "id": 41,
+      "nombre": "Pico de Netherita",
+      "tipo": "Herramienta",
+      "materiales": [
+        "1 Pico de Diamante",
+        "1 Lingote de Netherita"
+      ],
+      "imagen": "https://i.postimg.cc/c19N2pMV/pico-netherita.png",
+      "crafteo": "assets/img/crafteos/pico_netherita.png",
+      "descripcion": "Un pico extremadamente resistente que puede extraer los bloques más duros."
+    },
+    {
+      "id": 42,
+      "nombre": "Escalera",
+      "tipo": "Bloque",
+      "materiales": [
+        "6 Maderas"
+      ],
+      "imagen": "https://i.postimg.cc/PxnqLBF6/escalera.png",
+      "crafteo": "assets/img/crafteos/escalera.png",
+      "descripcion": "Permite a los jugadores subir y bajar con facilidad."
+    },
+    {
+      "id": 43,
+      "nombre": "Mesa de Cartografía",
+      "tipo": "Bloque",
+      "materiales": [
+        "2 Papeles",
+        "4 Maderas"
+      ],
+      "imagen": "https://i.postimg.cc/zvt5kM0Y/mesa-cartografia.png",
+      "crafteo": "assets/img/crafteos/mesa_cartografia.png",
+      "descripcion": "Se utiliza para crear y modificar mapas en el juego."
+    },
+    {
+      "id": 44,
+      "nombre": "Caña de Pescar",
+      "tipo": "Herramienta",
+      "materiales": [
+        "3 Palos",
+        "2 Hilos"
+      ],
+      "imagen": "https://i.postimg.cc/rpBD1dzN/cana-pescar.png",
+      "crafteo": "assets/img/crafteos/cana_pescar.png",
+      "descripcion": "Herramienta que permite pescar en cuerpos de agua."
+    },
+    {
+      "id": 45,
+      "nombre": "Cubo de Leche",
+      "tipo": "Objeto",
+      "materiales": [
+        "Darle click derecho con un cubo a la vaca"
+      ],
+      "imagen": "https://i.postimg.cc/Dwm0RQXc/cubo-leche.png",
+      "crafteo": "assets/img/crafteos/cubo_leche.png",
+      "descripcion": "Un cubo que contiene leche, útil para hacer pasteles y eliminar efectos de pociones."
+    },
+    {
+      "id": 46,
+      "nombre": "Panel de Cristal",
+      "tipo": "Bloque",
+      "materiales": [
+        "6 Cristales"
+      ],
+      "imagen": "https://i.postimg.cc/XJx0VmMB/panel-cristal.png",
+      "crafteo": "assets/img/crafteos/panel_cristal.png",
+      "descripcion": "Un bloque de cristal transparente que se puede usar para ventanas."
+    },
+    {
+      "id": 47,
+      "nombre": "Caña con Zanahoria",
+      "tipo": "Herramienta",
+      "materiales": [
+        "1 Caña de Pescar",
+        "1 Zanahoria"
+      ],
+      "imagen": "https://i.postimg.cc/5086nxCd/cana-zanahoria.png",
+      "crafteo": "assets/img/crafteos/cana_zanahoria.png",
+      "descripcion": "Se utiliza para atraer cerdos y caballos mientras se navega."
+    },
+    {
+      "id": 48,
+      "nombre": "Ojo de Ender",
+      "tipo": "Objeto",
+      "materiales": [
+        "1 Polvo de Blaze",
+        "1 Perla de Ender"
+      ],
+      "imagen": "https://i.postimg.cc/1zGQd4JH/ojo-ender.png",
+      "crafteo": "assets/img/crafteos/ojo_ender.png",
+      "descripcion": "Un objeto que se utiliza para encontrar la fortaleza y acceder al End."
+    },
+    {
+      "id": 49,
+      "nombre": "Mesa de Flechas",
+      "tipo": "Bloque",
+      "materiales": [
+        "2 Pedernales",
+        "4 Maderas"
+      ],
+      "imagen": "https://i.postimg.cc/mgFRQm9K/mesa-flechas.png",
+      "crafteo": "assets/img/crafteos/mesa_flechas.png",
+      "descripcion": "Un lugar donde se pueden crear flechas y otros proyectiles."
+    },
+    {
+      "id": 50,
+      "nombre": "Compostador",
+      "tipo": "Bloque",
+      "materiales": [
+        "7 Tablas de Madera"
+      ],
+      "imagen": "https://i.postimg.cc/hGdjtSMz/compostador.png",
+      "crafteo": "assets/img/crafteos/compostador.png",
+      "descripcion": "Un bloque que permite convertir materiales orgánicos en tierra fértil."
+    }
+  ]
+}
